@@ -5,21 +5,21 @@
  */
 void print_triangle(int size)
 {
-int i, j;
+int hash, index;
 
 if (size > 0)
 {
-for (i = 0; i < size; i++)
+for (hash = 1; hash <= size; hash++)
 {
-for (j = size - i; j > 0; j--)
+for (index = size - hash; index > 0; index--)
 {
 _putchar(' ');
 }
-for (j = 0; j < i; j++)
+for (index = 0; index < hash; index++)
 {
 _putchar('#');
 }
-if (i == size)
+if (hash == size)
 {
 continue;
 }
