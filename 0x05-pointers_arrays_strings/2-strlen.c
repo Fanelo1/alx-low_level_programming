@@ -12,5 +12,5 @@ while (s[total_len] != '\0')
 {
 total_len++;
 }
-return (total_len)
+return (total_len);
 }
