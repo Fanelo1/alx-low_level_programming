@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _strpbrk - seach any byte string
  * @s: input
  * @accept: input
