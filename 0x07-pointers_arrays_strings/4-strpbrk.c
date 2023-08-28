@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _strbrk - seach any byte string
+ * _strpbrk - seach any byte string
  * @s: input
  * @accept: input
  * Return: 0 (seccess)
@@ -14,11 +14,9 @@ char *_strpbrk(char *s, char *accept)
 		for (k = 0; accept[k]; k++)
 		{
 			if (*s == accept[k])
-			{
-				return (s);
-			}
-			s++;
+			return (s);
 		}
+		s++;
 	}
 	return ('\0');
 }
