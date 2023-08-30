@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * sqrt_a - return square root
+ * @a: input
+ * @b: input
  *  * Return: sqaure root or -1
  */
 int sqrt_a(int a, int b)
