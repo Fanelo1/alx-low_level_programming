@@ -20,9 +20,6 @@ return (sqrt_a(a, b + 1));
 /**
  * _sqrt_recursion - return the root
  * @n: input
- * @c: input
- * @a: input
- * @b: input
  * Return: natural root
  */
 int _sqrt_recursion(int n)
