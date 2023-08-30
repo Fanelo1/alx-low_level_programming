@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * sqrt_a - return square root
- * @n: input num
- * @c: itarator
- * Return: sqaure root or -1
+ *  * Return: sqaure root or -1
  */
 int sqrt_a(int a, int b)
 {
@@ -20,6 +18,9 @@ return (sqrt_a(a, b + 1));
 /**
  * _sqrt_recursion - return the root
  * @n: input
+ * @c: input
+ * @a: input
+ * @b: input
  * Return: natural root
  */
 int _sqrt_recursion(int n)
