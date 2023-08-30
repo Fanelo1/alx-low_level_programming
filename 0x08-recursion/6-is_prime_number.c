@@ -5,7 +5,7 @@
  * @b: input
  * Return: (0)
  */
-int is_prime_number(int n)
+int prime_a(int a, int b)
 {
 	if (a <= 1 || (a != b && a % b == 0))
 	{
