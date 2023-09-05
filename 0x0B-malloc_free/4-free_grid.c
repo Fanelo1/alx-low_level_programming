@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * free_grid - frees a
  * @grid: multidimension
