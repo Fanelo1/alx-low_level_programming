@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib>
 /**
  * alloc_grid - return a pointer
  * @width: array width
