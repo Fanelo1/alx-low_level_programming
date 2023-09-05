@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdlib>
 /**
- * free_grid - frees a 2
+ * free_grid - frees a
  * @grid: multidimension
  * @height: height
  * Return: no return
