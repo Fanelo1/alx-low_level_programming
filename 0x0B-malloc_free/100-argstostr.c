@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * argstostr - concatinates
  * @ac: argument count
