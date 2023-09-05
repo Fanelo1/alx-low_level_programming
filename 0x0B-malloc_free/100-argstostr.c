@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * argstostr - concatinates
  * @ac: argument count
@@ -16,7 +17,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i< ac; i++)
 	{
 		for (n = 0; av[i][n]; n++)
-			len++
+			len++;
 	}
 	len += ac;
 
